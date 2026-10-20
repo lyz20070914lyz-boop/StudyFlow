@@ -1,45 +1,43 @@
-# 理解与练习
+# Understanding and practice
 
-## 听懂却不会做
+## Understand demonstrations but cannot solve alone
 
-先用一道代表题或用户已有尝试定位缺口，区分前置知识、步骤理解和方法选择。必要时示范一题并解释关键决策，再提供待补全步骤，最后独立做同类题。根据表现减少帮助，不固定要求所有人走完三个阶段。
+Use a representative problem or the learner's existing attempt to distinguish missing prerequisites, step comprehension and method selection. If needed, demonstrate key decisions, offer a partially completed attempt, then move to independent application. Do not impose all stages on everyone.
 
-## 能照着例题做，不知道为什么
+## Copying examples without understanding why
 
-从用户提供的例题选一个关键决策，逐次检查：这步依据什么原则、哪个已知条件允许使用、条件变化后是否仍适用。一次只问一个问题，不要求复述每一行。
+Select one consequential step from a supplied example. Check its principle, enabling condition, or whether it survives a condition change, one question at a time. Distinguish missing principles, omitted conditions and expression problems. Give local feedback, then a new same-structure task if useful. Teach missing prerequisites instead of demanding unsupported discovery.
 
-根据实际回答区分原则缺失、条件遗漏和表达问题，给局部反馈。随后按需要用同结构的新任务检查能否独立选择方法。没有学过的前置知识先示范，不能靠反复追问让用户凭空推导。
+## Stuck and requesting a hint
 
-## 卡题，只需要一点提示
+Inspect the problem, attempt and obstacle. Increase help only as needed: relevant condition, applicable principle, local step, full solution. Wait between steps. Give a full explanation when explicitly requested rather than enforcing a hint ladder.
 
-查看题目、已尝试步骤和卡点。逐级帮助：指出相关条件 → 提醒原则 → 提供局部步骤 → 展示完整解答。每次只给当前需要的程度，等待作答；用户明确要求解答时直接给，不强制走完提示链。
+## Repeated errors
 
-## 总是错同一种题
+Use actual work to hypothesize missing knowledge, concept confusion, retrieval failure, method selection, reading, calculation or execution errors. Do not accept “carelessness” as the diagnosis without evidence. Identify the error location, assign a small repair, and retest with a different surface form. Do not infer an attention disorder.
 
-检查实际过程，暂分为知识缺失、概念混淆、提取失败、方法误选、审题、计算或操作步骤问题。错误类型是诊断假设，不能只凭一句“粗心”确认。指出错误位置，安排最小修复练习，再用不同表面的同类题复测。无证据时不推断注意障碍。
+## Familiar problems succeed, variations fail
 
-## 例题会做，换个问法不会
+Compare givens, goals and underlying relations. Ask for a method and its conditions before execution. Use a changed condition, contrasting method or counterexample to check transfer. Restore prerequisite instruction when needed.
 
-比较问题的已知条件、目标和所需关系；让用户先选择方法并解释适用条件，再执行。安排条件变化、相近方法混合选择或反例，区分真正的方法选择与记住题面。基础不足时先补示范，不盲目增加变式。
+## Individual types succeed, mixed sets fail
 
-## 分章会做，混在一起不会
+Check single-type competence from existing work or one sample. Then mix a few problems from two or three confusable methods without labeling their chapter or solution strategy. Have the learner select and justify a method before solving.
 
-先根据已提供作答确认单项基础，必要时取一道题检查。基础可用后，挑二到三种容易误选的方法，给少量混合题，不预先标注方法或所属章节。
+Mark method-selection and execution errors separately. If single-type foundations are absent, return to demonstration or focused practice. Do not equate switching unrelated subjects with interleaving.
 
-逐题让用户先选方法、说明条件，再执行。反馈分开记录方法选错与执行出错，针对不同原因修复。单项基础尚未掌握时退回示范或单项练习，不强行混练；不把随机切换无关科目等同于交错练习。
+## Confusable concepts
 
-## 两个概念总混
+Find the condition that determines the distinction. Use a positive example, negative example and boundary case; have the learner classify and explain. Use a table only when several comparisons help. Similar wording alone is not evidence of understanding.
 
-找出决定分类的关键条件，给一个正例、一个反例和一个边界案例。让用户分类并说明理由，根据错误修正区别。表格只在多项比较时使用，不靠背相似措辞判断理解。
+## Explanation and structure
 
-## 解释、类比与知识框架
+- Direct concept request: explain first with necessary prerequisites, example and limits; do not demand an initial explanation.
+- Understanding/Feynman check: invite the learner's explanation, probe a specific gap, then revise; distinguish wording from conceptual error.
+- Analogy: start with one familiar analogy and state its mappings and failure points.
+- Fragmented knowledge: organize around a central question, modules, concepts and applications; label prerequisite, causal, inclusion and contrast relations.
+- Cross-domain comparison: check comparable levels and separate shared mechanisms from superficial resemblance. An analogy does not establish a factual claim.
 
-- 用户直接问概念：先给适合基础的解释，必要时补前置知识、例子与边界。不先要求用户解释一次。
-- 用户想检验理解或练费曼解释：让其先解释，针对漏洞追问，区分措辞问题与概念错误，再尝试重述。
-- 抽象概念：用一个贴近经验的类比起步，说明对应关系和失效位置，不默认堆三个类比。
-- 知识零散：围绕学科问题或任务建立层级，标明因果、包含、前置或对比关系，优先补影响下一步的缺口。
-- 跨学科比较：先确认分析层级是否可比，分开机制一致与表面相似，不由类比推出事实结论。
+## Lots of practice, little progress
 
-## 练了很多但没进步
-
-用实际作品或解题过程选一个子技能，给略高于当前表现的短练习，及时反馈并修正，再独立复测。没有可观察表现时先取样，不把所有重复练习称为刻意练习。
+Sample actual work, isolate one subskill, set a short task just beyond current performance, provide corrective feedback and retest independently. Repetition without feedback is not automatically deliberate practice. For programming, language, software or workplace tasks use [domain-specific evidence](applied-skills.md).

@@ -1,17 +1,19 @@
-# 备考
+# Exams
 
-## 临近考试，内容做不完
+## Approaching exam with too much content left
 
-依据真实考纲、题型、错题和可用时间确定主要失分原因。信息不足时优先询问考试范围或最近一次表现，不凭自述分数预测提分。保留少量高价值活动，说明今天做什么、怎样验收、哪些内容暂缓；包括模拟、订正和必要复测。
+Use the actual scope, question types, errors and available time to find a score bottleneck. Ask for scope or recent work when essential; do not predict gains from a self-reported score. Keep a few high-value actions with today's work, success evidence, deferrals, correction and necessary retesting.
 
-## 简答题知道但写不全
+## Know the material but incomplete short answers
 
-查看题目要求、用户答案与已有评分标准。区分漏知识点、没回应指令、缺少论证或时间分配问题。先修复一份答案，再让用户独立回答一道同要求的新题。无评分标准时标明使用暂定练习标准，不虚构正式分值。
+Compare the task, response and supplied rubric. Separate omitted knowledge, missed instructions, insufficient reasoning and time allocation. Repair one answer, then optionally attempt a new question with the same demand. Label provisional practice criteria when no official marking scheme exists; do not invent official points.
 
-## 限时模拟与批改
+## Mock exams and marking
 
-按用户指定数量、题型、难度和用时出题，先给题目与分值，答案暂留至提交后。没有可靠考纲或样题时标明仅作练习。批改先核查参考答案，再区分知识、审题、方法、执行与表达问题；每类错误给出修复动作。实际考试规则以当前官方信息为准。
+Follow requested number, type, difficulty and time. Present questions and marks first, withholding answers until submission unless requested otherwise. Without a reliable specification, label the exercise as practice, not an exam prediction.
 
-## 时间不够
+Check reference answers before scoring. Separate knowledge, interpretation, method, execution and expression errors, then give a corresponding repair. Verify current official rules when those matter.
 
-先判断是检索慢、方法选择慢、步骤冗余还是题目投入分配不当。用一个短限时任务取证，再调整。避免把所有速度问题归结为练习量不足。最后一天安排结合剩余缺口与恢复需要，不承诺万能冲刺方案。
+## Running out of time
+
+Test whether slow retrieval, method selection, redundant steps or allocation is responsible. Use a short bounded sample before changing the plan. More practice is not the diagnosis of every speed problem. Fit the final day to remaining gaps and recovery needs without promising a universal sprint.

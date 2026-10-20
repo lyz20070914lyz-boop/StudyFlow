@@ -1,70 +1,47 @@
-# 课前准备与课堂校正
+# Preparing for class and revising after it
 
-## 适用情境
+Start at the learner's current stage. A request for concept links alone does not require the entire cycle.
 
-“下周要上这章，怎么预习？”“本周和上周的内容对不上。”“我想课前找出没懂的地方。”“课上听到的和预习时理解的不一样。”
+## 1. Establish scope and sources
 
-根据用户所处阶段从相应环节开始，不要求每次走完整套流程。只想梳理知识联系时完成该部分即可。
+Use accessible learning objectives, assigned textbook sections, slides, papers and assessment requirements. Separate required, supplementary and assessed material. With many files, index scope before reading relevant sections; do not require uploading every file.
 
-## 1. 先确认范围与材料
+NotebookLM is optional, not a dependency or an automatic upload destination. If only an export is available, use it while stating what cannot be checked against the original.
 
-优先查看当前可访问的课程目标、教材相关章节、课件、指定论文、题目和作业要求，区分必读、补充与考核材料。材料很多时先做范围索引，再读相关部分，不要求上传整本书和所有文件。
+Use provided prior-week material for old/new links. If missing, ask for the topic or label general prerequisites as assumptions. Never invent the learner's previous lessons.
 
-NotebookLM 只是可选载体。本流程不依赖该产品，也不自动上传材料到第三方。用户在其他工具中整理过材料时，可以提供相关输出及出处；无法访问原文时明确不能完成原文核对。
+## 2. Build a relational preview
 
-如果要连接上周知识，先用实际提供的上周笔记或章节。缺失时只问相关主题，或把一般前置知识明确标成推测；不能假装知道用户上周学了什么。
+Select a few concepts according to objectives and prerequisite value; three to five is a possible starting point, not a quota. For each, explain the problem it addresses, its relation to another concept, and the basis for that relation. Label prerequisite, inclusion, causal, contrast or application relationships explicitly.
 
-## 2. 建立带关系的预习框架
+Cite a verifiable page, slide title or passage when available. Separate source claims from teaching inferences and do not fabricate locators. Treat the framework as provisional. Use a table or diagram only if the relationships warrant one.
 
-按课程目标和解释后续内容所需的程度，选择少量关键概念。默认可以从三到五个起步，数量随范围调整，不为凑五个删掉必要内容或添加次要内容。
+### Prequestions for unfocused reading
 
-每个概念至少回答：它解决什么问题，与哪个旧知识或本周概念有关，关系是什么，以及根据什么材料判断。关系可为前置、包含、因果、对比或应用，不能只写“有关联”。
+When the user wants to try questions before reading, derive two or three core questions from provided learning goals, but present the current one first and withhold its answer. Accept “I don't know”; unfamiliarity before study is not evidence of low ability.
 
-已有材料时注明可核查位置，如教材页码、课件标题或段落；没有可验证定位时不得编造。区分材料明确陈述的关系与教学上的推断。框架是待课堂和练习检验的版本，不包装为已经正确的个人知识网络。
+After the attempt, provide correct feedback and a reading location. Return to the question after related study and compare the answer. Missing vocabulary may require explanation first. Skip pretesting when the user asks for direct teaching or no quiz; do not chain pretesting, Feynman practice and posttesting by default.
 
-优先用简短关系说明；只有关系确实较多时才用表格或图。无需先输出整章摘要。
+## 3. Locate gaps through performance
 
-### 阅读没重点时：学前短测
+Identify a small set of essentials: definition, relationships or steps, conditions, example and boundary. A checklist guides diagnosis but does not establish what the learner knows.
 
-用户希望带着问题阅读、或想通过尝试判断关注点时，根据已提供材料的学习目标选二到三个核心问题，先给当前一个，暂不展示答案。允许“不知道”，不以未学前答错判断能力低。
+Invite a short explanation when the user wants understanding diagnosis; use a why-question, counterexample or application if necessary. Distinguish conceptual error, missing condition, unclear expression despite correct application, and fluent explanation without successful application.
 
-尝试后提供正确反馈和相应阅读位置，再让用户阅读。之后回到相应问题，检查回答发生什么变化。此处用于引导注意与后续学习，不把预先不会的内容都称作已存在的理解漏洞。
+Ask one diagnostic question at a time. Do not force explanation practice onto a request for a framework or direct explanation.
 
-没有材料不能假装识别了课程重点；初学者缺少基本词义时先解释。用户要求直接讲解或不测试时跳过短测。不要把预习、课后测验和费曼训练自动连成必走流程。
+## 4. Repair within available time
 
-## 3. 用实际解释与应用定位漏洞
+Prioritize prerequisite gaps, central misconceptions and then local details. Ninety minutes or two days before class are options, not universal requirements. Each task names the gap, explanation or source location, practice and a success criterion.
 
-先列出讲清该内容必须理解的少量要点：定义、关键关系或步骤、适用条件、例子与边界。清单只能指导诊断，不能证明用户已掌握或存在漏洞。
+After each task, continue, reduce difficulty or defer based on the response. Harder does not automatically mean more useful. Avoid repeated close reading of recently demonstrated knowledge, but retain later recall or application checks.
 
-让用户选一个概念作简短解释，依据实际回答定位错误；必要时用一个“为什么”、反例或应用问题核查。不要仅靠 AI 猜测用户哪里不懂。
+## 5. Check and revise using classroom information
 
-区分：
+Prepare a few questions about uncertain relationships, conditions or examples. Class remains a place for new learning; do not assume the entire lesson has been prelearned.
 
-- 概念或机制错误：需要补知识。
-- 逻辑跳步或条件遗漏：需要补解释与边界。
-- 说不清但能独立应用：可能主要是表达问题，不能直接判为不理解。
-- 讲得流畅但应用失败：尚不能认定掌握。
+With actual notes or corrections, mark what was confirmed, corrected, added or remains unresolved. Explain revisions and preserve sources when possible. Check definitions and conditions when sources disagree rather than assuming the teacher or AI must be right.
 
-按需求一次一个问题并等待回答。用户只要框架或讲解时，不强制进入费曼练习。
+Offer a brief independent post-class check when useful. Without classroom material, prepare a check list rather than inventing conclusions. Leave only the outputs needed now: a framework, specific gap, next action or classroom question.
 
-## 4. 在可用时间内补缺
-
-按照“影响后续内容的前置缺口 → 核心误解 → 局部细节”排序。用户有九十分钟可以按九十分钟安排，也可以拆成更短时段；上课前两天只是安排选项，不是效果保证。
-
-每个补缺任务包含：具体问题、查阅位置或解释、一次练习、复测标准。完成一项后根据表现决定继续、降低难度或暂缓。不把困难越大视为收益越高；缺前置知识时先补前置。
-
-近期已能独立完成的内容不反复精读，但保留之后的少量回忆或应用检查；“现在会了”不等于永久无需复习。
-
-## 5. 带着核查问题上课，课后修订
-
-课前保留少量待验证问题：某条关系是否成立、某个机制的条件、一个尚不能解释的案例。课堂仍用于学习新内容，不默认学生已经预学全部。
-
-用户提供课堂笔记、教师纠正或新材料后，比较预习框架与课堂信息，将相关内容标为确认、修正、补充或未解决。解释为什么改，并在可核查时保留来源。遇到矛盾先核对定义、范围和条件，不默认 AI 或教师一方必然正确。
-
-需要时给一条课后无提示检验，检查修正后的理解能否用于解释或解题。没有课堂材料时只准备核查清单，不虚构课堂结论。
-
-## 按需留下的结果
-
-一份概念关系框架、已发现的具体漏洞、下一项补缺动作或课堂核查问题。用户未要求文件时留在对话中，不自动创建长讲义。
-
-本流程由用户提供的预习方法改编，结合已有的讲解、主动回忆和反馈规则。整套组合尚未做效果验证；提前学习一次不能自动称为间隔练习，只有分开时段再次回忆或应用才包含相应安排。
+This combined workflow is a design, not a validated intervention. A single advance reading session is not spaced practice; a later recall or application session is needed for spacing.

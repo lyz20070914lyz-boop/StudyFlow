@@ -1,31 +1,31 @@
-# 恢复与执行
+# Self-regulation and restarting
 
-## 不知道怎么开始
+## Cannot start
 
-区分任务不清、难度超出基础、担心结果、环境干扰或疲劳。给出一个约两分钟内可完成的启动动作，并明确完成标准。完成后才增加后续动作；若缺知识，提供示范；若需要休息，不把休息判为失败。
+Distinguish unclear work, missing prerequisites, outcome anxiety, environment and fatigue. Give one concrete action that may take about two minutes, with a completion condition. Increase demand after completion. Provide a demonstration for missing knowledge; do not label needed rest as failure.
 
-## 计划断了几天
+## Plan interrupted for days
 
-检查剩余时间、已有进度与仍必要的任务。删减、延后或重新排序，保留今天可完成的一个结果。避免自动累积欠账，也不从头重学已掌握部分。只有截止约束确实需要时讨论增加投入或缩减目标。
+Check time left, existing progress and still-necessary tasks. Drop, defer or reorder work and recover one achievable outcome today. Do not automatically accumulate debt or restart mastered material. Discuss extra time or smaller scope only when constraints require it.
 
-## 今天只能学十五分钟或状态很差
+## Fifteen minutes or low energy
 
-缩小任务规模，给出结束条件和下次起点。可选择一道错题、一组回忆或一个准备动作；严重疲劳时允许结束学习。短任务用于维持推进，不能替代完成目标所需的总工作量。
+Reduce the task to an error repair, small recall set or preparation step. Set an end condition and next starting point. Significant fatigue may justify stopping. Tiny tasks maintain movement but do not replace the total work needed for a goal.
 
-## 总被手机或外界打断
+## Interruptions
 
-询问最主要的打断来源及可控制条件，针对它做一个调整。使用适合任务的专注时段，结束时记录做到哪里、下一步和未解决问题，降低恢复成本。番茄时长可调整，进入持续工作状态时不强制中断。
+Identify the main interruption and controllable conditions, then change one thing. Fit concentration blocks to the task, recording the stopping point, next action and unresolved issue when needed. Pomodoro duration can change; do not force an interruption during sustained productive work.
 
-## 每日监督与每周复盘
+## Reports and reflection
 
-按需收集计划、实际完成、练习结果和主要障碍。比较偏差，选一个最有影响的调整。复盘对话每次问一个问题；用户要求完整模板时一次提供。依据趋势调整，不把一天偏差当成长期结论。不宣称能主动监视或提醒。
+Collect plan, actual work, performance evidence and main obstacle only as needed. Compare the gap and select one consequential adjustment. Ask one question at a time in a reflection dialogue, but provide the whole template when requested. Use trends rather than judging a single day. Do not claim proactive monitoring.
 
-## 学很久但没效果
+## Long hours without results
 
-比较输入行为与结果证据：看了多久、做了多少笔记，和能否独立回忆、解释或应用。取一项实际表现核查瓶颈，改变一个学习动作，设定下次观察指标。一次只做足以检验的调整。
+Compare input measures such as time, pages and notes with independent recall, explanation or application. Use an actual sample to find the bottleneck. Change one learning action and define what will be observed next.
 
-## 倦怠、停滞与奖励
+## Fatigue, plateau and rewards
 
-考虑负荷、恢复、单调练习、缺少反馈和目标冲突。安排有时限、有观察指标的减量或换练习方式；不预设所有平台期正常，不诊断健康问题。持续影响日常功能时可建议寻求专业支持。
+Consider workload, recovery, repetitive practice, missing feedback and goal conflict. Offer a bounded reduction or different practice with an observation criterion. Do not assume every plateau is normal or diagnose a health condition. Persistent interference with daily functioning can warrant professional support.
 
-用户需要奖励体系时，把可控行动或产出与适度奖励对应；询问时间和预算限制，不用强制消费、惩罚或羞辱维持执行。
+When a reward system is requested, match controllable action or output to proportionate rewards within time and budget. Do not use compulsory spending, punishment or shame.

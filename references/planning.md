@@ -1,28 +1,26 @@
-# 安排下一步
+# Planning the next action
 
-## 有时间但不知道先做什么
+## Time available, no clear first step
 
-例：“现在有半小时，不知道从哪开始。”
+Use known deadlines, consequences, dependencies and the immediate obstacle to choose one finishable task. If no task is known, ask what the user wants to advance. State the action, completion evidence and first step; do not consume a half-hour slot with a week-long plan.
 
-用已知截止日期、任务影响、依赖关系和当前阻碍选一个任务。没有任务信息时只问当前要推进什么。给出一个适合时长的动作、完成标准和第一步。避免用整周规划消耗这段时间。
+## Goals and schedules
 
-## 目标与时间安排
+- Long-term goal: check starting level, deadline and weekly time before working backward from outcomes to milestones, near-term tasks and today's action. Add monthly/daily levels only when useful.
+- Weekly schedule: fit actual availability, reserve uninterrupted blocks for demanding work, retain buffer and a review point. Do not automatically roll all missed work into tomorrow.
+- Competing goals: allocate by priority, deadline and skill gap; state what to defer first. Interleaving similar problem types is different from repeatedly switching unrelated tasks.
+- Short sprint: define an independent end performance, retain essential content, and include practice, corrective review and a final task. Do not promise expertise in a fixed number of days.
+- Beginner route: establish prerequisites and move from demonstration to independent application, rather than dumping the entire curriculum at once.
+- Career learning: define capabilities through actual work products, projects and portfolio evidence. Verify occupational requirements rather than inventing hiring criteria.
 
-- 长期目标：先检查基础、截止日期与每周时间是否匹配，再倒推阶段结果、近期任务和今天的动作。月、周、日层级只在跨度需要时展开。
-- 周计划：按实际可用时间分配，给高负荷任务完整时段，留缓冲和一次复盘；未完成任务不自动全部滚入次日。
-- 多目标：按优先级、截止日期和能力差距分配；明确冲突时先删减什么。交错练习用于训练方法辨别，不等于频繁切换无关任务。
-- 短期冲刺：先定义期末能独立完成什么，选必要内容，安排练习、复测和最终综合任务；不保证“30 天精通”。
-- 零基础：确认必要前置知识，按依赖安排，逐步从示范走向独立应用。避免一次倾倒全部知识。
-- 职业路线：用实际工作产物定义能力，列知识、技能、项目和作品证据；岗位要求需有来源，不能编造招聘标准。
+## Fifteen minutes or fragmented time
 
-## 只有十五分钟或碎片时间
+Choose one bounded recall exercise, error repair, short practice or preparation action. Fit the environment; do not assign a long reasoning chain to heavily interrupted time. A duration is a workload estimate, not a guarantee of learning.
 
-选择一个能在时段内结束的单元：回忆一个概念、修复一道错题、完成一段练习、准备下一次所需材料。通勤任务需匹配实际环境；中断频繁时不安排依赖长推理链的任务。具体时长是工作量估计，不是学习效果保证。
+## Too many resources
 
-## 资料太多，反复换课
+Compare a small set against goals, prerequisites, time and budget. Keep one main resource, adding practice or reference material only for a specific gap. Trial a unit before committing; assess comprehensibility, practice quality and goal coverage. Check current availability, versions and prices when relevant.
 
-先依据目标、水平、时间、预算比较少量候选，保留一个主材料，必要时加练习或查阅材料。用一个章节或任务试学，按可理解程度、练习质量和目标覆盖判断是否继续。只有明确缺口才增加资源。课程版本、价格、可用性需核查，无法核查则说明。
+## Project learning
 
-## 想通过项目学会
-
-定义能展示的最终产物与验收标准，再分解中间成果和知识缺口。初学者先安排微型示范项目；每阶段只补当前所需知识。把“跟着做完”与“独立修改或重做”分开验收。
+Define a demonstrable outcome and acceptance criteria, then intermediate products and knowledge gaps. Beginners may need a tiny worked project first. Teach what the present milestone requires. Distinguish following a tutorial from independently modifying or rebuilding its result. For applied domains read [Applied skills](applied-skills.md).

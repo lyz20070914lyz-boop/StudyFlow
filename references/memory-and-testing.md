@@ -1,57 +1,58 @@
-# 记忆与自测
+# Memory and testing
 
-## 先确定要记住到什么程度
+## Establish what must be remembered
 
-- 逐字背诵：先取得待背原文，按原文核对漏词、错词、顺序和用户要求的细节。没有原文时只能评价表达或一般知识，不能声称逐字正确。
-- 理解后复述：依据材料核对必要要点、关系和限制，允许不改变含义的改写，不因措辞不同判错。
-- 考试或实际应用：看能否在题目条件下选择并使用知识，背出定义只是其中一部分。
+- Verbatim recall: obtain the original; check words, omissions, order and required details. Without it, do not claim word-for-word accuracy.
+- Paraphrase: check essential meaning, relationships and conditions against the material. Accept equivalent wording.
+- Application: check whether the learner chooses and executes the appropriate method; reciting a definition is only part of this.
+- Recognition: retain recognition or multiple-choice exercises when requested or relevant; free recall does not replace every form of practice.
 
-标准已由用户说明时直接使用，不重复提问。标准未知且会影响判断时才问。上述标准可并存，不把背诵与理解设成互斥目标。
+Use an already stated standard. Ask only when the missing distinction changes feedback. Verbatim memory and understanding can both be goals.
 
-## 看完一章却没留下
+## Read a chapter but retained little
 
-先合上材料，回忆主问题、核心关系或关键步骤。根据遗漏只回看相应部分，再闭卷重建或应用。完全不理解时先讲解，不用连续测验替代教学。一次自测只给当前需要的问题，不默认十题。
+Close the material and recall the main question, relationships or steps. Review missed sections selectively, then reconstruct or apply without the material. If understanding is absent, teach first. Give only as many current questions as needed rather than a default ten.
 
-## 记不住
+## Cannot remember
 
-先区分没理解、无法提取和缺少复习。按材料性质选回忆形式：词汇释义、机制解释、公式条件、步骤执行或情境判断。起始复习间隔可作建议，根据无提示答对、迟疑或答错调整；不把固定天数说成每个人必需的遗忘曲线。
+Distinguish poor understanding, retrieval difficulty and insufficient review. Choose vocabulary meaning, causal explanation, formula conditions, procedure or situation judgment to match the content. Suggest a starting review interval and adapt it to independent success, hesitation or error; do not call a fixed schedule everyone's forgetting curve.
 
-看着答案说“很熟”与合上材料独立回忆分开记录。若任务本身考辨认或选择，也保留相应形式，不用自由回忆替代所有练习。不因一次失败直接判断没有理解；先核对题意、前置知识和提示依赖。
+Separate familiarity with the answer visible from independent recall. One failed attempt does not prove no understanding; check interpretation, prerequisites and prompt dependence.
 
-## 当天背会，之后就忘：跨时段达标复习
+## Remember today, forget later: successive relearning
 
-先确定待记内容、本次回忆标准和可用时间。用一个小单元开始：独立尝试 → 对照材料反馈 → 修正错误 → 在本次时段内再试。用户未提供材料时先取得内容，不凭空生成其待背原文。
+Establish content, a session-level recall standard and time limit. Start with one small unit: independent attempt, source-checked feedback, correction and another attempt within the session.
 
-本次达到约定标准后停止密集重复，将之后的独立回忆安排到其他学习时段。具体间隔按截止日期、内容难度与后续成功、迟疑或失败调整；论文中的次数与间隔不是所有材料的固定要求。
+Once the agreed standard is met, stop massed repetition and suggest later learning sessions. Adjust intervals to the deadline, difficulty and later performance rather than copying experimental counts or intervals as universal rules.
 
-分别记录本次是否独立达标与后续是否仍能提取。给安排建议或用户需要的续接摘要，不声称已设置自动提醒；长篇逐字背诵不直接照搬词对实验的效果结论。
+Distinguish present success from later retention. Offer a plan or an optional continuation note, not fictitious automatic reminders. Findings from word pairs do not establish an optimal verbatim-prose schedule.
 
-## 刚看完觉得全会：延迟掌握检查
+## Overconfidence: delayed mastery check
 
-用户希望检查是否高估掌握时，选已学的一个单元，在约定的后续学习节点再检查。先独立回忆或完成与目标匹配的题，再对照材料。不要为制造时间间隔而阻塞聊天或假装已经过去了时间。
+When the user wants to check overconfidence, select learned material and revisit it at an agreed later learning point. Attempt recall or a goal-matched question before showing the answer. Do not block the chat to manufacture a delay or pretend time has passed.
 
-只有对时间分配有用时才询问信心高低，并比较自评与实际表现；优先复查高信心但出错的内容。不强制逐题打分，不把信心换算成能力百分比。若用户已经给出无提示作答，直接使用，不机械地重新测一遍。
+Ask confidence only when it helps allocate study time; compare it with actual work and prioritize high-confidence errors. Do not force per-item ratings or convert confidence to a mastery percentage. Use existing independent work instead of mechanically repeating the test.
 
-## 卡片与复习积压
+## Review backlog
 
-先核对今天的时间、截止日期、必要内容和近期错误，避免只按卡片数量增加任务。建议减少新增量，优先必要且尚不稳定的内容，对已会内容保留适量抽查。
+Check time, deadline, essential content and recent errors rather than assigning more cards by count alone. Suggest reducing new content, prioritizing necessary unstable items, and sampling stable items.
 
-发现重复、脱离上下文或一题包含太多内容时，给一两项拆分、合并或暂缓建议。不直接删除用户卡片或修改外部应用。根据一轮实际用时修正当天负荷；数据不足时给试行任务，不编造每张卡的精确耗时。
+Flag duplicate, contextless or overloaded cards; suggest a small number of splits, merges or deferrals. Do not delete records or edit an external app without authorization. Re-estimate workload after an actual round instead of inventing precise per-card times.
 
-这是复习安排的实践设计，不宣称存在已验证的万能优先级算法。该整理不能取代实际回忆与反馈。
+This is workload design, not a validated universal scheduling algorithm, and it does not replace retrieval and feedback.
 
-## 笔记很多但没用
+## Extensive but ineffective notes
 
-选择一小段已有笔记，转成检索问题、必要答案和应用检查。用户尝试后再决定是否扩大整理。保留理解所需解释，不为精简而删除机制与条件。康奈尔分区仅在用户需要笔记模板时采用，不额外制造笔记负担。
+Try a small provided note section as questions, necessary answers and an application check before reformatting everything. Retain conditions and mechanisms needed for understanding. Use Cornell layout only when a note template is wanted.
 
-## AI 讲的时候懂，关掉就不会
+## Can follow AI but not work independently
 
-区分辅助完成与独立完成。先让用户解释关键决策，必要时补局部帮助，随后让其在无提示下重做或做变式；不以点赞、阅读完成或跟着解答作为掌握证据。用户要求直接讲解时仍先满足，再按需提出独立练习。
+Separate assisted performance from independent performance. Invite an explanation of a key decision, repair locally when needed, then remove help for a new or repeated attempt. Reading completion and approval are not mastery evidence. Answer direct explanation requests first.
 
-## 自测与掌握校准
+## Mark and stop
 
-按任务选择定义、辨别、解释、应用、反例或综合题。先不给答案，作答后指出正确部分、具体错误和一个修复动作。有需要时记录“无提示完成、提示后完成、未完成”，并用之后的复测检查保持；不用少量题目生成看似精确的掌握百分比。
+Choose definition, discrimination, explanation, application, counterexample or synthesis questions for the target. Withhold answers during an independent attempt; afterward identify what is correct, the specific error and a repair.
 
-答案与必要评分依据在练习前核查，但练习阶段不提前展示。用户有合理替代表达时说明为何接受。参考答案不确定时先标出不确定点，不为了维持批改流程而编造标准。
+Verify answers and criteria before marking. Accept defensible alternatives and disclose uncertain reference answers. Record independent/helped/not-yet success when useful; do not manufacture precision from a few questions.
 
-达到本次目标后停止，不自动扩充背诵量或增加新题。后续复习只是建议，不能声称已经安排提醒或记录跨对话进度。
+Stop at this session's target. Further review is a suggestion, not a claim of scheduled reminders or cross-chat tracking.
