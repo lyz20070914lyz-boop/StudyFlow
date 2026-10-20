@@ -1,0 +1,48 @@
+id,should_trigger,route,prompt,expected_behavior
+positive-01,true,planning,我现在有半小时不知道先学什么，明天考统计还欠一组题。,选择可完成的一项统计任务并给第一步而非长计划
+positive-02,true,understanding,老师讲的时候我懂但自己一做就不会。这是我的题和做到一半的过程。,依据已有过程定位缺口再决定示范或练习
+positive-03,true,understanding,这一步我卡住了。只给一点提示别直接告诉我答案。,只提供一级相关提示并等待作答
+positive-04,true,understanding,这两道题我都会但换个问法就不知道选哪个公式。,训练识别条件和选择方法
+positive-05,true,understanding,负强化和惩罚我总分不清。,用区别和案例练判断且不由词面下结论
+positive-06,true,memory-and-testing,我看完这一章但脑子里什么都没留下。,从小规模主动回忆定位遗漏
+positive-07,true,memory-and-testing,我笔记写了十页复习还是不会。这是其中一段。,先用提供的一小段检验回忆而非全部重写
+positive-08,true,self-regulation,计划断了三天还有很多没补现在不知道怎么接。,核对必要任务并恢复今天一步而非全部补欠账
+positive-09,true,planning,我只有十五分钟想继续准备下周英语测验。,给一个适合十五分钟的任务和结束条件
+positive-10,true,planning,这三门入门课我来回换不知道选哪个。,按目标基础和课程信息比较并选择主材料
+positive-11,true,memory-and-testing,AI一解释我就懂但不用AI就不会了。,安排逐步撤提示与独立应用
+positive-12,true,exams,还有一周考试选择题可以简答题总写不全。这是题目和答案。,先看答案定位失分类型再修复和复测
+positive-13,true,self-regulation,我坐下就刷手机一直没开始看这章。,识别主要启动障碍并给一个小动作
+positive-14,true,self-regulation,我每天学四小时成绩没变化这是上次错题。,用实际错题核查瓶颈而非只增加时长
+positive-15,true,planning,我想通过做一个记账小项目学习Python只有变量基础。,定义小产物并补必要示范逐步独立完成
+positive-16,true,explicit,$study-flow 我想检查一下刚学的内容。,显式使用Skill并先确认主题或材料
+positive-17,true,understanding,I can follow the worked example but cannot solve a new problem.,Diagnose the gap and adjust guidance before independent practice
+positive-18,true,self-regulation,I missed my study plan for three days. How do I restart?,Reprioritize necessary work and start one feasible task
+positive-19,true,memory-and-testing,My notes look complete but I cannot recall anything without them.,Use a small retrieval check and repair the missing knowledge
+positive-20,true,explicit,$study-flow 直接解释主动回忆是什么不要出题。,直接回答且不强制测试
+negative-01,false,none,把“我记不住这些单词”翻译成英文。,仅翻译
+negative-02,false,none,论文里有一句“学生总是拖延”帮我改得符合学术语言。,按学术修改请求处理
+negative-03,false,none,帮我整理这份学习类prompt列表的排版。,按材料整理而非辅导用户
+negative-04,false,none,请用这个教材制作第三章Notes PDF。,由教材Notes与文档流程主导
+negative-05,false,none,帮我写一篇讨论学习倦怠的文献综述。,按文献综述任务处理
+negative-06,false,none,给这个学习App的登录页面改颜色。,按界面任务处理
+negative-07,false,none,Translate the phrase I cannot remember into Chinese.,Translate only
+negative-08,false,none,Review this paragraph about retrieval practice for grammar.,Edit grammar rather than start a quiz
+boundary-01,true,continuity,$study-flow 按上次进度继续。但这是新对话我没提供记录。,不假装记得只询问目标上次完成和卡点
+boundary-02,true,capability,$study-flow 每晚九点主动监督我复习。,说明需要调度能力并按宿主授权流程处理不虚构已设提醒
+positive-21,true,course-cycle,后天上这一章我想先预习。这是本周课件但上周笔记没有带。,梳理有据的概念关系且不虚构上周知识必要时问相关主题
+positive-22,true,course-cycle,我预习时认为A导致B但老师今天说是相关不是因果。这是课堂笔记。,对照材料核查关系与条件后修订而非默认任一方必然正确
+positive-23,true,course-cycle,我只有二十分钟想用这章材料找理解漏洞可以先让我解释一个概念。,一次一个诊断问题并等待回答不强制九十分钟或整套流程
+negative-09,false,none,把这段“上课前两天找五个核心概念”的方法改成公众号文案。,按文案编辑处理不启动预习或假定用户已上传材料
+boundary-03,true,memory-and-testing,这段定义必须逐字背但我没有把原文发给你。先检查我有没有漏词。,先索取原文不虚构逐字核对结果
+boundary-04,true,memory-and-testing,我只需要理解后复述不用原话。这里是原文和我的复述。,核对要点与关系接受正确改写不按漏词扣分
+boundary-05,true,memory-and-testing,我只想练辨认这些术语的选择题不要改成默写。,保留辨认练习且不擅自替换为自由回忆
+boundary-06,true,continuity,$study-flow 我已经完成约定的一道题今天到这里。,确认当前结果并结束不追加测试或自动安排提醒
+boundary-07,true,planning,我是视觉型学习者所以是不是所有内容都画图就好。,区分偏好与方法效果按材料任务和表现选择
+positive-24,true,course-cycle,这章阅读我总抓不住重点想先试几个问题再读。材料我已经发了。,按材料先给一个学前问题尝试后反馈并指向阅读位置
+positive-25,true,understanding,我会照抄例题但不明白为什么这里可以除以这个数。,检查该步骤条件及原则一次一个问题缺基础先示范
+positive-26,true,understanding,单独练时能分清几个公式混在一起就不知道选哪个。,在确认基础后混合少量相近题先选方法再执行
+positive-27,true,memory-and-testing,刚看完我总觉得全会过会就忘想检查自己有没有高估掌握。,约定后续节点无提示检查按需比较信心不假装时间已过去
+positive-28,true,memory-and-testing,当天背熟第二天全忘我想分几次练到能自己想起来。,先明确内容与本次标准独立回忆反馈达标后安排后续时段
+positive-29,true,memory-and-testing,每天复习几百张卡片做不完还不断新增帮我减下来。,核对时间与必要内容调整新增量和复习不擅自删卡
+boundary-08,true,understanding,我每个公式本身都不会但想直接混题练。,先处理基础缺口不强行混练
+boundary-09,true,course-cycle,这章直接讲给我听别先出题我一点基础也没有。,直接解释和必要示范跳过学前测试
