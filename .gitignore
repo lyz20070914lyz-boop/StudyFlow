@@ -1,0 +1,10 @@
+.DS_Store
+*.zip
+.env
+.env.*
+__pycache__/
+*.pyc
+materials/
+planning/
+work/
+releases/
