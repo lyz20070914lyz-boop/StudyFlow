@@ -1,0 +1,6 @@
+interface:
+  display_name: "StudyFlow"
+  short_description: "根据学习研究选择下一步，帮助理解、背诵、记忆、练习与复习"
+  default_prompt: "使用 $study-flow，根据我当前的学习情况直接带我完成下一步。"
+policy:
+  allow_implicit_invocation: true
