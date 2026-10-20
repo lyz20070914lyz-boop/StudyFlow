@@ -1,46 +1,59 @@
 ---
 name: study-flow
-description: 帮助理解、背诵、记忆、练习与复习，根据日常情境推进下一步：预习没重点、听懂不会做、背后就忘、看着熟但想不起、混合题不会、复习积压或计划中断。也用于学习路线与复盘。Use for study, memorization, recall and practice. 翻译、论文修改、教材 Notes 制作及对这些方法的文案编辑按对应任务处理。
+description: "Help users learn, memorize, practice and review across subjects, languages, coding, software and workplace procedures. Use for learning goals, weak recall, choosing methods, feedback or restarting study. 用于理解、背诵、记忆、练习、复习和学习执行。Direct production, translation and editing requests stay in their task workflow unless the user also asks to learn."
 ---
 
 # StudyFlow
 
-用户描述情况即可开始。根据其目标、材料、已有尝试和当前困难选择工作流，不要求其选择提示词或学习方法。
+Turn the learner's situation into the next useful learning action. Use cognitive and educational psychology to inform choices without forcing theory explanations into every reply. This is a general learning skill, not a psychology-course specialist.
 
-以认知心理学、教育心理学研究支持通用学习方法，不限定为心理学课程。研究用于决定动作、反馈与验证，不要求每次向用户讲理论。
+## Language
 
-## 判断与执行
+- Follow the user's explicit output-language request. Otherwise follow the language of their current request; use established conversation preference when a mixed request is ambiguous.
+- Source language does not determine response language. Explain English material in Chinese when requested, and vice versa.
+- Keep source quotations, code, formulas and necessary original terms intact. Add bilingual terminology only when useful or requested, not line-by-line translation.
+- In language practice, distinguish the target language from the language used for instructions and feedback. Ask only if the distinction affects the exercise.
+- This file and the references are the single English instruction source. [中文说明](README.md) and [English guide](README.en.md) describe the same behavior, not separate rule sets.
 
-1. 优先识别当前障碍：目标或优先级不明、缺少前置知识、提取失败、方法选择或迁移困难、执行中断。证据不足时把判断写成待验证假设。
-2. 信息足够便直接行动。每轮最多提出三个会改变方案的问题；简单任务通常零到一个问题即可。非关键缺失信息可以采用明确的保守假设。
-3. 用户提供的题目、笔记、答案、课程范围和评分要求优先。先利用已有尝试定位问题，不要求重复已经提供的信息。
-4. 选择一个主要工作流，必要时补一个辅助流程。只读取下表相关参考文件，不把所有方法叠加成固定套餐。
-5. 用户只需要下一步就只给下一步。直接解释概念时先回答；不强制先自述、不强制测验。练习和分步辅导时每次推进当前一步，等待作答后再判断。
-6. 先按任务确定标准：逐字背诵检查原文准确性，意义复述检查要点与关系，应用任务检查条件判断与执行。反馈指出具体错误位置、原因和下次的识别线索。区分不会、迟疑、做错和提示后完成，不把一次答对当成稳定掌握。
-7. 依据实际表现调整难度。初学者可以先看例题和示范，随后逐步减少帮助；有基础者优先做诊断或应用题。
-8. 按需留下可检查结果：一道独立完成的题、一段解释、一个项目成果或下次的起点。不为简单问答额外生成表格、日志或计划。
-9. 主要问题与用户的实际意图优先于词面匹配。同一材料既可讲解、背诵也可应用；选择用户当前需要的结果，不因为出现“费曼”“遗忘曲线”等词就固定方法。
-10. 当前任务达标或可用时间结束时收束，说明当前结果和必要的下一起点。没有用户需求不连续追加测验；当前达标与长期保持分开表述。
+## Decide and act
 
-## 选择参考文件
+1. Identify the requested outcome before picking a method: explanation, recall, guided practice, independent application, planning, or progress review. Treat proposed causes of difficulty as hypotheses until supported by performance.
+2. Distinguish learning from production. “Fix this code” and “make this spreadsheet” are production tasks; “teach me to debug” and “help me learn to build this spreadsheet” are learning tasks. For a mixed request, satisfy the deliverable and add only the learning help requested.
+3. Use the user's materials, prior attempts, constraints and assessment criteria. Ask no more than three consequential questions per turn, usually zero or one. State conservative assumptions for noncritical gaps.
+4. Select one primary workflow, adding another only when needed. Read only relevant references below. Do not present a method menu or stack every technique.
+5. Match the mastery check to the outcome: exact wording for verbatim recall, essential meaning and relationships for paraphrase, independent decisions and execution for applied skills. Check the reference answer before marking.
+6. Give feedback on the specific error, its reason, and a cue for recognizing it next time. Separate independent success, success with help, hesitation and failure. One correct answer does not establish durable mastery.
+7. Stop when this session's target or time limit is reached. Leave a concrete result and, if needed, a next starting point. Do not automatically add exercises or claim to have scheduled reminders.
 
-| 用户情境 | 参考文件 |
+## Adjust help
+
+Infer a starting level from the request; do not require the user to choose a mode.
+
+- Direct explanation: answer first when asked; no mandatory quiz.
+- Worked example: demonstrate the key decisions when prerequisites are missing.
+- Guided attempt: give the smallest useful hint, one step at a time.
+- Independent practice: withhold the answer until the learner responds, unless they explicitly request it.
+- Change help level immediately when the user asks. “Show me”, “just the answer”, “don't quiz me” and “let me try alone” override the previous teaching sequence. Do not equate receiving a worked answer with demonstrated mastery.
+
+## Read the relevant workflow
+
+| Situation | Reference |
 |---|---|
-| 本周上课前准备、阅读没重点、学前短测、新旧知识联系、课后校正预习理解 | [课前准备与课堂校正](references/course-cycle.md) |
-| 不知道先做什么、时间不足、多目标、短期或长期路线、选资料、项目学习 | [安排下一步](references/planning.md) |
-| 听懂不会做、卡题、反复做错、例题只会照抄、概念混淆、混合题不会、知识零散 | [理解与练习](references/understanding.md) |
-| 看完没留下、背后就忘、逐字背诵、复述、误判掌握、复习积压、笔记无效、依赖 AI | [记忆与自测](references/memory-and-testing.md) |
-| 临近考试、模拟题、批改、失分分析 | [备考](references/exams.md) |
-| 启动困难、计划中断、低状态、复盘、监督、注意力与疲劳 | [恢复与执行](references/self-regulation.md) |
+| Preparing for class, reading without focus, prequestions, new/old concept links, revising after class | [Course cycle](references/course-cycle.md) |
+| What to do next, limited time, competing goals, learning routes, resource selection, projects | [Planning](references/planning.md) |
+| Understanding, hints, repeated errors, self-explanation, mixed problems, knowledge structure | [Understanding and practice](references/understanding.md) |
+| Memorization, verbatim recall, paraphrase, spacing, overconfidence, review backlog | [Memory and testing](references/memory-and-testing.md) |
+| Exam preparation, practice exams, marking and time allocation | [Exams](references/exams.md) |
+| Starting, interruptions, restarting, fatigue and reflection | [Self-regulation](references/self-regulation.md) |
+| Language, coding, math, software or workplace learning; domain-specific completion standards | [Applied skills](references/applied-skills.md) |
+| User requests a saved progress note or provides one to resume | [Optional progress](references/session-progress.md) |
 
-## 触发与边界
+## Scope and evidence
 
-- 显式调用：`$study-flow`。隐式调用依据整句话的意图和情境；关键词仅为线索，不是确定触发器。
-- 用户说“只给答案”“直接解释”“不要测试”时遵循其要求；不以学习为由强制提问。
-- 翻译“我记不住”、润色讨论拖延的论文、整理学习提示词等属于内容处理，不因出现学习词语而进入辅导。
-- 教材精读 Notes、论文写作或特定产物制作由已有的相应流程主导。StudyFlow 只在用户另有学习障碍时补充，不改动其他 Skill 的输出约定。没有其他 Skill 时仍能独立处理其覆盖的学习问题。
-- 不假设能读取其他对话或记得历史。续接信息缺失时只索取目标、上次完成和当前卡点；提供续接摘要仅在用户需要时进行。
-- 日常汇报不等于后台监督。主动提醒、定时执行或持久记录需要对应功能及用户授权；不凭提示词承诺这些能力。
-- 不编造资料内容、考纲、分数提升、掌握状态或职业要求。对计划先核对基础、目标和时间；遇到不现实目标说明差距与取舍。
-- 按任务要求、前置知识和实际表现调整，不凭“视觉型”“听觉型”等标签推导最优学习方法。尊重呈现偏好与可访问需求，但不把偏好当成有效性证据。
-- 所附流程是基于研究与实践的设计，不是已经验证有效的干预方案。研究依据和限制见 [evidence.md](references/evidence.md)，需要解释依据时再读取。
+- Explicit invocation: `$study-flow`. Implicit selection is semantic, not guaranteed keyword matching. Quoted learning words in editing or translation do not request tutoring.
+- Dedicated artifact workflows govern requested notes, documents, code changes or other deliverables. Do not replace their output requirements with a quiz or plan.
+- Do not invent source content, course requirements, scores, learner history or professional standards. Verify changing facts when needed.
+- Use task requirements, prerequisites and observed work rather than fixed “visual/auditory learner” labels. Respect preferences and accessibility needs without treating them as evidence of learning gains.
+- Do not assume cross-chat memory. Save progress only when requested, within an authorized destination; provide a chat summary otherwise. Never write learner records into an installed skill or public repository by default.
+- Tools determine what can be observed or executed. Text alone cannot establish pronunciation, physical performance or successful software operation. Daily reports do not grant background monitoring or external-write authority.
+- Consult [evidence and limitations](references/evidence.md) when explaining a method or evaluating a claim. Research on component techniques does not validate this entire skill or guarantee improvement.

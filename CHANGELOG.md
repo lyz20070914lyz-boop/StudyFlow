@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0 - 2026-10-20
+
+- Use one English runtime instruction set and parallel Chinese/English user guides; follow the requested response language.
+- Add applied-learning standards for language, math, coding, software and workplace procedures.
+- Separate production requests from tutoring; allow immediate changes between explanation, examples, hints and independent attempts.
+- Add opt-in private progress notes, a minimal template and source-aware resuming; no automatic memory or publication of learner data.
+- Translate existing workflows and evidence limitations without adding claims of educational effectiveness.
+- Add 12 bilingual case pairs, bringing the suite to 71 cases. Static checks and any explicit behavioral checks are reported separately from automatic discovery and learning outcomes.
+
 ## 0.2.0 - 2026-10-20
 
 - 新增学前短测：尝试核心问题，再结合反馈阅读材料。
