@@ -24,7 +24,7 @@ ensure_valid(ui.dig('interface', 'display_name') == 'StudyFlow', 'invalid displa
 ensure_valid((25..64).cover?(ui.dig('interface', 'short_description').to_s.length), 'UI description must have 25-64 characters')
 ensure_valid(ui.dig('interface', 'default_prompt').to_s.include?('$study-flow'), 'default prompt must name the skill')
 
-allowed_roots = %w[SKILL.md README.md LICENSE CHANGELOG.md .gitignore agents references evals scripts .git]
+allowed_roots = %w[SKILL.md README.md README.en.md LICENSE CHANGELOG.md .gitignore agents references templates evals scripts .git]
 ensure_valid((Dir.children(root) - allowed_roots).empty?, 'unexpected root files; review the release scope')
 
 files = Dir.glob(File.join(root, '**', '*'), File::FNM_DOTMATCH).select do |path|
@@ -47,7 +47,7 @@ end
 cases = CSV.read(File.join(root, 'evals/trigger-prompts.csv'), headers: true, encoding: 'UTF-8')
 ensure_valid(cases.headers == %w[id should_trigger route prompt expected_behavior], 'unexpected evaluation columns')
 ensure_valid(!cases.empty? && cases.map { |row| row['id'] }.uniq.length == cases.length, 'empty or duplicate evaluation IDs')
-routes = %w[planning understanding memory-and-testing self-regulation exams course-cycle explicit continuity capability none]
+routes = %w[planning understanding memory-and-testing self-regulation exams course-cycle applied-skills session-progress explicit continuity capability none]
 cases.each do |row|
   ensure_valid(row.fields.length == 5 && row.fields.all? { |field| field && !field.strip.empty? }, "incomplete case: #{row['id']}")
   ensure_valid(%w[true false].include?(row['should_trigger']) && routes.include?(row['route']), "invalid case: #{row['id']}")
@@ -55,5 +55,10 @@ cases.each do |row|
 end
 declared_count = File.read(File.join(root, 'README.md')).match(/包含 (\d+) 个场景/)
 ensure_valid(declared_count && declared_count[1].to_i == cases.length, 'README case count differs from CSV')
+english_count = File.read(File.join(root, 'README.en.md')).match(/contains (\d+) scenarios/)
+ensure_valid(english_count && english_count[1].to_i == cases.length, 'English README case count differs from CSV')
+paired = cases.select { |row| row['id'].start_with?('bi-') }.group_by { |row| row['id'].sub(/-(zh|en)\z/, '') }
+ensure_valid(paired.length >= 12 && paired.values.all? { |rows| rows.map { |row| row['id'].split('-').last }.sort == %w[en zh] }, 'incomplete bilingual case pairs')
+ensure_valid(File.file?(File.join(root, 'templates/progress.md')), 'missing progress template')
 puts "PASS: metadata, YAML, release scope, internal links, #{cases.length} evaluation cases"
 puts 'Model behavior and learning outcomes: not tested by this script.'
